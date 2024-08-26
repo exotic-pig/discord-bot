@@ -6,13 +6,13 @@ from bs4 import BeautifulSoup
 import random
 import smtplib
 import time
-from rohopics import links
-from activities_list import activities
+from rohopics import links #this is a python file with a array of special links. to get the special links, go to google photos, click share, and then create link. copy  and paste it into the file.
+from activities_list import activities 
 import os
 from dotenv import load_dotenv
 load_dotenv()
-token = os.getenv('DISCORD_TOKEN')
-google_app_password = os.getenv('APP_PW')
+token = os.getenv('DISCORD_TOKEN') #needed
+google_app_password = os.getenv('APP_PW') #gmail stuff is for sending suggestions
 gmail_user = os.getenv('GMAIL_USER')
 
 
