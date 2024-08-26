@@ -25,9 +25,6 @@ async def on_ready():
         print(e)
         exit()
         
-@bot.command()
-async def be_annoying(ctx):
-    await ctx.send('hello')
 
 
 
